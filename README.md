@@ -70,15 +70,7 @@ Install dependencies before running the notebooks:
 bash
 Copy code
 pip install numpy pandas matplotlib scikit-learn
-🚀 How to Run
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/<your-username>/<repo-name>.git
-Open the notebooks in Jupyter Notebook or JupyterLab.
-
-Run all cells sequentially to reproduce results.
 
 📜 License
 This project is licensed under the MIT License — you are free to use, modify, and distribute it with proper attribution.
