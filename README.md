@@ -1,6 +1,7 @@
 Predictive Analysis Using Machine Learning
 
-📌 Project Overview
+📌 Project Overview :
+
 This project demonstrates predictive modeling using machine learning techniques for both classification and regression tasks.
 It provides a complete end-to-end workflow:
 
@@ -14,11 +15,13 @@ Hyperparameter tuning
 
 Model evaluation and visualization
 
+
 The project includes two Jupyter notebooks:
 
 Classification — Predicting cancer diagnosis using the Breast Cancer Wisconsin dataset.
 
 Regression — Predicting housing prices using the California Housing dataset.
+
 
 📂 Repository Structure
 bash
@@ -27,12 +30,15 @@ Copy code
 ├── Predictive_Analysis_Regression.ipynb      # Regression notebook
 ├── README.md                                 # Project description
 └── .gitignore                                # Ignored files list
+
+
 🛠 Features
 Data Splitting — Train–test split for unbiased evaluation.
 
 Preprocessing — Scaling numerical features with StandardScaler.
 
 Feature Selection — Using SelectKBest with mutual_info_classif (classification) and f_regression (regression).
+
 
 Models Used:
 
@@ -43,6 +49,7 @@ Linear Regression (regression baseline)
 Random Forest (alternative model for both tasks)
 
 Hyperparameter Tuning — Using GridSearchCV for model optimization.
+
 
 Evaluation Metrics:
 
